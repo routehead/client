@@ -51,7 +51,7 @@ var rootCmd = &cobra.Command{
 		serverCfg := confs.RouteheadServerConfig{
 			ServerAddr:        serverAddr,
 			ServerPort:        7000,
-			TLSEnable:         false,
+			TLSEnable:         true,
 			Protocol:          "tcp",
 			NatHoleSTUNServer: "",
 		}

@@ -11,7 +11,7 @@ builds:
 archives:
   - format: tar.gz
     name_template: >-
-      routehead-
+      routehead
       {{ .Version }}-
       {{- title .Os }}-
       {{- if eq .Arch "amd64" }}x86_64
